@@ -1,0 +1,124 @@
+<!DOCTYPE HTML> 
+<html>
+    <head>
+        <title>My First HTML Page</title>
+        <link rel="stylesheet" href="style.css">
+        <script>
+            function msg(){
+                alert('You clicked on a button');
+            }
+            var i = 0;
+            function counter(){
+                i = i + 1;
+                alert("you click on this button "+String(i) + " times");
+            }
+        </script>
+    </head> 
+    <body class="class1">
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="test2.html">About</a></li>
+            <li><a href="https://www.google.com/">News</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <button type="button" onclick="document.getElementById('date').innerHTML =Date();">Get the date</button>
+        <button type="button" onclick="msg();">Get for notification</button>
+        <button type="button" onclick="counter()">Click me!</button>
+        <p id="date"></p>
+        <div class="class2">
+            <p>This is change in width</p>
+            <a href="#" class="block">Home</a>
+            <a href="#" class="block">Home</a>
+            <a href="#" class="block">Home</a>
+            <h1 class="inline">Hi</h1>
+            <h1 class="inline">Hi</h1>
+            <h1 class="inline">Hi</h1>
+        </div>
+        <h1 class="class1">Hey this is a class</h1>
+        <h1>This does not use a class</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/-FlxM_0S2lA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <form>
+            <fieldset>
+                <input type="text" value="Enter your name">
+                <textarea>Type bunch of words</textarea>
+            </fieldset>
+            <fieldset>
+                <h2>Favorite Food</h2>
+                <input type="radio" name="food">Pizza<br>
+                <input type="radio" name="food">Sushi<br>
+                <input type="radio" name="food">Pasta<br>
+                <input type="radio" name="food">Ramen<br>
+            </fieldset>
+            <h2>Games you have played</h2>
+            <input type="radio">Pokemon<br>
+            <input type="radio">Mario<br>
+            <input type="radio">Super Smash Bros<br>
+            <select>
+                <option>Male</option>
+                <option selected="select">Female</option>
+                <option>Other</option>
+            </select>
+            <input type="submit" value="Submit">
+            <input type="reset" value="reset">
+        </form>
+        <br>
+        <table border="10" style="background-color: aqua; width: 80%;" cellspacing="15" cellpadding="10">
+            <colgroup>
+                <col style="background-color: blue">
+                <col style="background-color: gray">
+                <col style="background-color: green">
+            </colgroup>
+            <thead>
+                <th>Name</th><th>Color</th><th>Grade</th>
+            </thead>
+            <tfoot>
+                <td>Name</td><td>Color</td><td>Grade</td>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>Ethan</td><td>Blue</td><td>Very Old</td>
+                </tr>
+                <tr>
+                    <td>Swarchis</td><td>Black</td><td>6th grade</td>
+                </tr>
+                <tr>
+                    <td>Mridini</td><td>Green</td><td>7th grade</td>
+                </tr>
+            </tbody>
+        </table>
+        <div style="font-size: 28px; color: red">
+            <p>Hello</p>
+            <h2>World</h2>
+        </div>
+        <h1>Ethan's Website&copy;</h1>
+        <h2>Webdesign languages</h2>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Hypertext Marketing Language</dd>
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheet</dd>
+        </dl>
+        <h2>Ranking favorite food</h2>
+        <ol type="A">
+            <li>Ice Cream</li>
+            <li>Ramen</li>
+            <li>Pizza</li>
+        </ol>
+        <h2>Good games</h2>
+        <ul type="square">
+            <li>Pokemon</li>
+            <li>Super Smash Bros</li>
+            <li>Super Mario</li>
+        </ul>
+        <a href="test2.html"><img src="32x32.png" width="50px"></a>
+        <div style="background-color: aquamarine">
+            <h1><span style="color: blue">Welcome</span> to my webpage</h1>
+            <h2>This is subheading</h2>
+            <p>Hello World</p>
+        </div>
+        <a href="https://www.google.com/">Go to Google</a>
+        <br>
+        <img src="memes.jpg" height="100px" width="1000px">
+        <img src="meme2.jpg">
+    </body> 
+</html>
